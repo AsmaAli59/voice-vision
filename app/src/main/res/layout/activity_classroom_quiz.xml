@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bg_general_2_quiz"
+    tools:context=".ui.activities.home.classrooms.ClassroomQuiz">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_Classroom_Quiz"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Quiz" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/mtv_heading_Classroom_Quiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/_1_5"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                android:textColor="@color/primary_500"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mtv_timer_Classroom_Quiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="@string/app_name"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                android:textColor="@color/primary_500"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/mtv_heading_Classroom_Quiz"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/mtv_heading_Classroom_Quiz" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mtv_heading_Classroom_Quiz"
+                app:layout_constraintWidth_percent="0.9">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/mtv_title_Classroom_Quiz"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/question_no_1"
+                        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/mtv_question_Classroom_Quiz"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:text="@string/question_text"
+                        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                        app:layout_constraintEnd_toEndOf="@+id/mtv_title_Classroom_Quiz"
+                        app:layout_constraintStart_toStartOf="@+id/mtv_title_Classroom_Quiz"
+                        app:layout_constraintTop_toBottomOf="@+id/mtv_title_Classroom_Quiz" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/mb_one_Classroom_Quiz"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="start|center"
+                        android:text="@string/will"
+                        android:textAllCaps="false"
+                        app:layout_constraintEnd_toEndOf="@+id/mtv_question_Classroom_Quiz"
+                        app:layout_constraintStart_toStartOf="@+id/mtv_question_Classroom_Quiz"
+                        app:layout_constraintTop_toBottomOf="@+id/mtv_question_Classroom_Quiz" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/mb_two_Classroom_Quiz"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="start|center"
+                        android:text="@string/is"
+                        android:textAllCaps="false"
+                        app:layout_constraintEnd_toEndOf="@+id/mtv_question_Classroom_Quiz"
+                        app:layout_constraintStart_toStartOf="@+id/mtv_question_Classroom_Quiz"
+                        app:layout_constraintTop_toBottomOf="@+id/mb_one_Classroom_Quiz" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/mb_three_Classroom_Quiz"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="start|center"
+                        android:text="@string/is"
+                        android:textAllCaps="false"
+                        app:layout_constraintEnd_toEndOf="@+id/mtv_question_Classroom_Quiz"
+                        app:layout_constraintStart_toStartOf="@+id/mtv_question_Classroom_Quiz"
+                        app:layout_constraintTop_toBottomOf="@+id/mb_two_Classroom_Quiz" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/mb_four_Classroom_Quiz"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="start|center"
+                        android:text="@string/is"
+                        android:textAllCaps="false"
+                        app:layout_constraintEnd_toEndOf="@+id/mtv_question_Classroom_Quiz"
+                        app:layout_constraintStart_toStartOf="@+id/mtv_question_Classroom_Quiz"
+                        app:layout_constraintTop_toBottomOf="@+id/mb_three_Classroom_Quiz" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/mb_next_Classroom_Quiz"
+                        style="@style/CustomMaterialButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="24dp"
+                        android:enabled="false"
+                        android:text="@string/next"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintWidth_percent="0.8" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <include
+        android:id="@+id/inc_voice"
+        layout="@layout/view_voice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

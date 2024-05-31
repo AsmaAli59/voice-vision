@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "998372405249",
+    "firebase_url": "https://voice-visions-default-rtdb.firebaseio.com",
+    "project_id": "voice-visions",
+    "storage_bucket": "voice-visions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998372405249:android:8c6f13f59add2392245000",
+        "android_client_info": {
+          "package_name": "com.fyp.voicevision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998372405249-o6406ga8dicpu2lcu9nbsumcr82c5i14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIzhXkGfyCKDElewJLnCq-IVlSvEJGjr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998372405249-o6406ga8dicpu2lcu9nbsumcr82c5i14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998372405249:android:205a164c954b267d245000",
+        "android_client_info": {
+          "package_name": "com.fyp.voicevisionadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998372405249-o6406ga8dicpu2lcu9nbsumcr82c5i14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIzhXkGfyCKDElewJLnCq-IVlSvEJGjr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998372405249-o6406ga8dicpu2lcu9nbsumcr82c5i14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Voice Vision</string>
+
+    <!-- menu_bnv -->
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+
+    <!-- menu_graph -->
+    <string name="graph">Graph</string>
+
+    <!-- ValidationUtils -->
+    <string name="field_cant_be_empty">Field can\'t be empty</string>
+    <string name="invalid_input">Invalid Input</string>
+    <string name="invalid_password_length">Weak Password</string>
+    <string name="password_does_not_match">Password does not match</string>
+    <string name="age_limit_14">Age must be greater than 14.</string>
+
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="password_hint">Min 8 characters</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="not_registered_sign_up">Not registered? Sign Up</string>
+
+    <!-- SignUp -->
+    <string name="sign_up">SignUp</string>
+    <string name="fullName">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="age">Age</string>
+    <string name="already_an_user_login">Already an user? Login</string>
+    <string name="age_limit">Must be 14+</string>
+
+    <!-- Forget Password -->
+    <string name="forget_password_message">A verification link will be sent to this email address.</string>
+
+    <!-- Modes -->
+    <string name="modes">Modes</string>
+    <string name="modes_title">App Interaction Mode</string>
+    <string name="modes_message">Control your app behavior via any of the following.</string>
+    <string name="guideline_title">Guideline</string>
+    <string name="guideline_message">Here are simplified guidelines on how to operate an English language app for visually impaired and handicap users through voice mode \n\n
+
+<b>Turn on Voice Mode:</b> Check the app\'s settings for an accessibility or voice mode option and turn it on.\n\n
+
+<b>Learn Voice Commands:</b> Take time to familiarize yourself with the app\'s voice commands by checking its documentation or help section. Common commands may include "Open menu," "Select," "Go back," "Select one" , select basic quiz history" and "exit voice mode.", “exit app”, “repeat menu”.
+
+<b>Speak Clearly:</b> Use clear and natural pronunciation when giving voice commands. Speak at a moderate pace and avoid slurring words.\n\n
+
+<b>Be Patient:</b> Voice recognition may not always be perfect, so be patient if the app doesn\'t interpret your commands correctly. Try repeating or rephrasing the command if needed.\n\n
+
+<b>Minimize Background Noise:</b> Use the app in a quiet environment to reduce background noise that may interfere with voice recognition.\n\n
+
+<b>Explore App Features:</b> Check if the app has text-to-speech or other accessibility features designed for visually impaired and handicap users.\n\n
+
+<b>"Try Again" Option:</b> If a voice command is not recognized, look for a "Try Again" option or button, which allows you to repeat the command without starting over. If you are a visually impaired and physically challenged learner and need to touch the screen, the voice mode will be activated again.
+
+    </string>
+
+    <!-- Levels -->
+    <string name="levels">Levels</string>
+    <string name="quiz_levels">Quiz Levels</string>
+    <string name="levels_title">Whats your English Level?</string>
+    <string name="levels_message">This will help us adjust our lessons to match your ability.</string>
+    <string name="levels_message_quiz">This will help us adjust quiz questions to match your ability.</string>
+    <string name="basic">Basic</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="advance">Advance</string>
+
+    <!-- Home -->
+    <string name="logout">Logout</string>
+    <string name="home_title">Modules</string>
+    <string name="class_room">Class Room</string>
+    <string name="vocabulary">Phrases</string>
+    <string name="quiz">Quiz</string>
+
+    <!-- Classroom -->
+    <string name="start_quiz">Start Quiz</string>
+    <string name="no_data_found">No Data Found</string>
+
+    <!-- Quiz -->
+    <string name="_1_5">%d/%d</string>
+    <string name="question_no_1">Question No. %d</string>
+    <string name="question_text">How long __________ she will be away?</string>
+    <string name="will">will</string>
+    <string name="is">is</string>
+
+    <!-- Dialog_Result -->
+    <string name="total_question">- Total Questions: 3</string>
+    <string name="correct_answers">- Correct Answers: 3</string>
+    <string name="score_percentage">- Score Percentage: 50%</string>
+    <string name="replay">Replay</string>
+    <string name="exit">Exit</string>
+    <string name="next">Next</string>
+    <string name="quiz_note">Note: You need to obtain at least 50% scores, in order to unlock next lecture</string>
+
+    <!-- Bookmarks -->
+    <string name="bookmarks">Bookmarks</string>
+
+    <!-- Voice View -->
+    <string name="touch_to_speak">Touch to Speak</string>
+    <string name="exit_voice_mode">Exit Voice Mode</string>
+
+    <!-- Profile -->
+    <string name="loading">loading…</string>
+    <string name="classroom_history">Classroom History</string>
+    <string name="general_history">General History</string>
+    <string name="grammar">Grammar</string>
+    <string name="tenses">Tenses</string>
+    <string name="view_all">View All</string>
+
+    <!-- ______________________________________ Voice Mode Commands ______________________________________ -->
+    <string name="voice_mode_start">Voice Mode has initiated.</string>
+    <string name="voice_mode_levels">"To go back, say Go Back
+        Select levels to set
+        for Beginner say select Basic
+        for Intermediate say select Intermediate
+        for Advance say select Advance"
+    </string>
+    <string name="voice_mode_home">"Welcome to Home Page.
+        To exit app, say Exit
+        To exit voice mode, say Exit Voice Mode
+        To repeat, say repeat menu
+        To see profile, say open Profile
+        for Classroom say open Classroom
+        for Phrases say open Phrases
+        for Quiz say open Quiz
+        for bookmark, say open Bookmark
+        for modes, say open Modes
+        for level, say open Levels
+        for logout, say open Logout this account"
+    </string>
+    <string name="voice_mode_profile">"
+        To go to home page app, say Home Page
+        To exit voice mode, say Exit Voice Mode
+        To repeat, say repeat menu
+        for Classroom History, say open basic or intermediate or advance or view all classroom history
+        for General History, say open basic or intermediate or advance or view all general history"
+    </string>
+    <string name="voice_mode_bookmark">"
+        To go to back, say Go Back
+        To exit voice mode, say Exit Voice Mode
+        To repeat, say repeat menu"
+    </string>
+    <string name="voice_mode_player">"To go back, say go back"</string>
+    <string name="voice_mode_failed">Failed to listen, try again.</string>
+    <string name="voice_mode_fetching_data">Please Wait, fetching data…</string>
+    <string name="history">History</string>
+    <string name="classroom_quiz">Classroom Quiz</string>
+    <string name="general_quiz">General Quiz</string>
+    <string name="tips">Tips</string>
+    <string name="quiz_type">Quiz Type</string>
+    <string name="quiz_content">Quiz Content</string>
+
+</resources>
